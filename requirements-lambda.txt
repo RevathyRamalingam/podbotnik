@@ -1,0 +1,10 @@
+# Requirements for AWS Lambda
+# Optimized for Lambda's environment (3.11 runtime)
+# Note: Some packages are removed that aren't needed on Lambda
+
+groq>=0.4.0
+minsearch>=0.1.0
+python-dotenv>=1.0.0
+
+# AWS SDK (usually pre-installed on Lambda, but including for clarity)
+boto3>=1.26.0

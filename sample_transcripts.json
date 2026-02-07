@@ -1,0 +1,34 @@
+[
+  {
+    "episode_id": "ep001",
+    "episode_title": "Introduction to Machine Learning",
+    "episode_number": 1,
+    "video_url": "https://youtube.com/watch?v=dQw4w9WgXcQ",
+    "audio_url": "https://example.com/podcast/ep001.mp3",
+    "transcript": "Welcome to the podcast. Today we're discussing machine learning fundamentals. Machine learning is a subset of artificial intelligence that enables systems to learn from data. There are three main types: supervised learning, unsupervised learning, and reinforcement learning. Supervised learning involves training on labeled data. Unsupervised learning finds patterns in unlabeled data. Reinforcement learning trains agents through rewards and penalties. We'll explore practical applications in real-world scenarios. Many companies use machine learning for recommendations, fraud detection, and natural language processing. The future of ML looks bright with transformer models and large language models gaining popularity. Thanks for listening!"
+  },
+  {
+    "episode_id": "ep002",
+    "episode_title": "Deep Dive into Neural Networks",
+    "episode_number": 2,
+    "video_url": "https://youtube.com/watch?v=dQw4w9WgXcQ",
+    "audio_url": "https://example.com/podcast/ep002.mp3",
+    "transcript": "Neural networks are computational systems inspired by biological neurons found in animal brains. They consist of interconnected nodes organized in layers: input layer, hidden layers, and output layer. Each connection has a weight that gets adjusted during training. The backpropagation algorithm is crucial for training neural networks efficiently. Convolutional neural networks or CNNs are excellent for image processing tasks. Recurrent neural networks or RNNs handle sequential data like text and time series. Transformers introduced attention mechanisms which revolutionized natural language processing. We discussed BERT, GPT, and other transformer-based models. These models can understand context and semantics in ways previous architectures couldn't. The attention mechanism allows the model to focus on relevant parts of the input. Companies are using transformers for chatbots, translation, summarization, and more."
+  },
+  {
+    "episode_id": "ep003",
+    "episode_title": "Data Engineering Best Practices",
+    "episode_number": 3,
+    "video_url": "https://youtube.com/watch?v=dQw4w9WgXcQ",
+    "audio_url": "https://example.com/podcast/ep003.mp3",
+    "transcript": "Data engineering is the backbone of any machine learning project. A solid data pipeline ensures data quality and consistency. ETL processes extract, transform, and load data from various sources. Data validation and quality checks are essential before training models. You should implement data versioning to track changes in datasets over time. Apache Spark is popular for processing large-scale data. Cloud platforms like AWS, Google Cloud, and Azure provide managed services for data pipelines. Data governance and privacy are increasingly important with regulations like GDPR. Anonymization and encryption protect sensitive information. Documentation of data schemas and lineage helps with reproducibility. Real-time data streaming requires different tools like Kafka or Kinesis compared to batch processing. Monitoring data drift helps identify when model performance degrades due to data distribution changes."
+  },
+  {
+    "episode_id": "ep004",
+    "episode_title": "Deploying ML Models to Production",
+    "episode_number": 4,
+    "video_url": "https://youtube.com/watch?v=dQw4w9WgXcQ",
+    "audio_url": "https://example.com/podcast/ep004.mp3",
+    "transcript": "Deploying machine learning models to production is challenging but rewarding. Model serialization using formats like ONNX, SavedModel, or pickle is the first step. Container technologies like Docker make deployment consistent across environments. Kubernetes orchestrates containerized applications for scalability and reliability. You should establish CI/CD pipelines for automated testing and deployment. MLOps is the practice of automating machine learning lifecycle management. Model monitoring in production detects performance degradation and data drift. A/B testing compares new models against existing ones before full rollout. Feature stores like Tecton manage and serve features consistently. APIs and REST endpoints serve models to applications. Serverless computing with AWS Lambda or Google Cloud Functions works for stateless models. Batch prediction processes large datasets overnight for recommendations or scoring. The goal is to move from notebooks to production-ready systems quickly and safely."
+  }
+]
